@@ -15,6 +15,7 @@ int main(int argc, char* argv[]) {
 	cout << "!!!Main Program!!!" << endl; // prints !!!Main Program!!!
 
 	ParamUtil::populate_paramerter_map(argc, argv);
+	ParamUtil::print_parameter_map();
 
 	return 0;
 }
